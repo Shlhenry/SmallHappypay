@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f1f7"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="业务"
+        android:textColor="#fff"
+        android:textSize="@dimen/y34"
+        android:background="@color/homecolor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y96"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y284"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/y27">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/orangebar"
+                android:layout_marginLeft="@dimen/x30"/>
+
+            <TextView
+                android:textSize="@dimen/y34"
+                android:textColor="@color/textcolor"
+                android:text="商户服务"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10"
+                android:includeFontPadding="false"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/y36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/business_machineinfo_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x60"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ywzdxx"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="终端信息"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/business_mccrate_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x53"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ywjjfl"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="进件费率"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/business_bankinfo_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x53"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ywskzh"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收款账户"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/business_payproduct_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x53"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ywzfcp"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付产品"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_marginTop="@dimen/y20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y284"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/y27">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bluebar"
+                android:layout_marginLeft="@dimen/x30"/>
+
+            <TextView
+                android:textSize="@dimen/y34"
+                android:textColor="@color/textcolor"
+                android:text="交易"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10"
+                android:includeFontPadding="false"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/y36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/business_chart_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x152"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ywjybb"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="交易报表"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/business_water_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x195"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ywjyjl"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="交易记录"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/y20"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y284"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/y27">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/greenbar"
+                android:layout_marginLeft="@dimen/x30"/>
+
+            <TextView
+                android:textSize="@dimen/y34"
+                android:textColor="@color/textcolor"
+                android:text="进件进度"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10"
+                android:includeFontPadding="false"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/y36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x60"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ywzltj"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="资料提交"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x135"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ywzlsh"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="资料审核"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x135"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ywshtg"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="审核通过"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zwgd"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/y71"/>
+
+
+</LinearLayout>  

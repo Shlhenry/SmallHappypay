@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tool_bar"/>
+
+        <com.androidkun.xtablayout.XTabLayout
+            android:padding="@dimen/x10"
+            android:id="@+id/xTablayout"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/y118"
+            app:xTabBackgroundColor="#fff"
+            app:xTabDividerWidthWidthText="true"
+            app:xTabMode="scrollable"
+            app:xTabIndicatorColor="@color/homecolor"
+            app:xTabIndicatorHeight="2dp"
+            app:xTabSelectedTextColor="@color/homecolor"
+            app:xTabTextColor="@color/textcolor"
+            app:xTabTextSize="@dimen/y28"
+            app:xTabDisplayNum="4"
+            app:xTabSelectedTextSize="@dimen/y32"
+            app:xTabDividerWidth="@dimen/y2"
+            app:xTabDividerHeight="@dimen/y34"
+            app:xTabDividerColor="@color/homecolor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y20"
+        android:background="@color/bgcolor"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>  

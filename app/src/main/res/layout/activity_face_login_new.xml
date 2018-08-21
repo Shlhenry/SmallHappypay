@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/facecolor"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y96"
+        android:background="#353f9d">
+
+        <LinearLayout
+            android:id="@+id/facenewlogin_back_ll"
+            android:layout_width="@dimen/x100"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xwbfh"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/x40"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/toolbar_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人脸认证"
+            android:textColor="#fff"
+            android:textSize="@dimen/y34"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/x494"
+        android:layout_height="@dimen/y413"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y180"
+        android:background="@drawable/sldlsmk"
+        android:gravity="center">
+        
+        <ImageView
+            android:id="@+id/avatar_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sldltx" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/y80"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/y32"
+            android:textColor="#fff"
+            android:text="认证手机号"/>
+
+        <TextView
+            android:id="@+id/faceloginnew_tel_tv"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/y28"
+            android:textColor="#fff"
+            android:text=""/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/detect_btn"
+        android:layout_marginTop="@dimen/y80"
+        android:layout_width="@dimen/x500"
+        android:layout_height="@dimen/y88"
+        android:background="@drawable/bgkuang"
+        android:text="开始扫描"
+        android:textColor="#fff"
+        android:textSize="@dimen/y28"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/submit_btn"
+        android:layout_marginTop="@dimen/y50"
+        android:layout_width="@dimen/x500"
+        android:layout_height="@dimen/y88"
+        android:background="@drawable/bgkuang"
+        android:text="提交认证"
+        android:textColor="#fff"
+        android:textSize="@dimen/y28"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+
+
+</LinearLayout>  

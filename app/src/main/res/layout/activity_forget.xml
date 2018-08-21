@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/tool_bar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#1a000000"/>
+
+    <ImageView
+        android:layout_width="@dimen/x160"
+        android:layout_height="@dimen/y160"
+        android:src="@mipmap/xwlogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y71"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/y136"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y44"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/x42"
+            android:layout_height="@dimen/y42"
+            android:src="@drawable/dlmobile"
+            android:layout_marginLeft="@dimen/x49"/>
+
+        <EditText
+            android:id="@+id/forgetpwd_tel_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x20"
+            android:hint="手机号"
+            android:background="#fff"
+            android:textColorHint="#66000000"
+            android:textSize="@dimen/y28"
+            android:layout_gravity="center_vertical"
+            android:inputType="phone"
+            android:maxLength="11"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginTop="@dimen/y19"
+        android:background="@color/line"
+        android:layout_marginLeft="@dimen/x40"
+        android:layout_marginRight="@dimen/x40"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/y43"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y44"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/x42"
+            android:layout_height="@dimen/y42"
+            android:src="@drawable/yzm"
+            android:layout_marginLeft="@dimen/x49"/>
+
+        <EditText
+            android:id="@+id/forgetpwd_code_et"
+            android:layout_width="@dimen/x300"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x20"
+            android:hint="请输入验证码"
+            android:background="#fff"
+            android:textColorHint="#66000000"
+            android:textSize="@dimen/y28"
+            android:layout_gravity="center_vertical"
+            android:inputType="number" />
+
+        <com.example.administrator.smallhappypay.tool.TimerButton
+            android:id="@+id/register_getcode_btn"
+            android:layout_width="@dimen/x168"
+            android:layout_height="@dimen/y44"
+            android:text="获取验证码"
+            android:textSize="@dimen/y24"
+            android:textColor="#fff"
+            android:layout_marginLeft="@dimen/x100"
+            android:background="@drawable/getcodebg"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginTop="@dimen/y21"
+        android:background="@color/line"
+        android:layout_marginLeft="@dimen/x40"
+        android:layout_marginRight="@dimen/x40"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/y43"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y42"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/x42"
+            android:layout_height="@dimen/y42"
+            android:src="@drawable/dlcode"
+            android:layout_marginLeft="@dimen/x49"/>
+
+        <EditText
+            android:id="@+id/forgetpwd_newpwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x20"
+            android:hint="请设置新密码"
+            android:background="#fff"
+            android:textColorHint="#66000000"
+            android:textSize="@dimen/y28"
+            android:layout_gravity="center_vertical"
+            android:inputType="textPassword"
+            android:maxLength="11"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginTop="@dimen/y21"
+        android:background="@color/line"
+        android:layout_marginLeft="@dimen/x40"
+        android:layout_marginRight="@dimen/x40"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/y43"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y42"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/x42"
+            android:layout_height="@dimen/y42"
+            android:src="@drawable/dlcode"
+            android:layout_marginLeft="@dimen/x49"/>
+
+        <EditText
+            android:id="@+id/forgetpwd_newpwdagain_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x20"
+            android:hint="请确认新密码"
+            android:background="#fff"
+            android:textColorHint="#66000000"
+            android:textSize="@dimen/y28"
+            android:inputType="textPassword"
+            android:layout_gravity="center_vertical"
+            android:maxLength="11"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_marginTop="@dimen/y21"
+        android:background="@color/line"
+        android:layout_marginLeft="@dimen/x40"
+        android:layout_marginRight="@dimen/x40"/>
+
+    <Button
+        android:id="@+id/forgetpwd_commit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xgmmqrxgwdj"
+        android:layout_marginTop="@dimen/y61"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>  

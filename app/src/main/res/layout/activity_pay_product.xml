@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tool_bar"/>
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/x30"
+        android:paddingTop="@dimen/y30"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y230">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zdxxydpos"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="移动POS机"
+            android:layout_marginLeft="@dimen/x10"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/y22"
+            android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/payproduct_me_ll"
+            android:layout_marginTop="@dimen/y60"
+            android:layout_marginLeft="@dimen/x54"
+            android:layout_width="@dimen/x130"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xdl"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新大陆ME31"
+                android:layout_marginLeft="@dimen/x10"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/y20"
+                android:layout_marginTop="@dimen/y20"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/payproduct_ha_ll"
+            android:layout_marginTop="@dimen/y60"
+            android:layout_marginLeft="@dimen/x320"
+            android:layout_width="@dimen/x130"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jhlt"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="锦弘霖H60-A"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/y20"
+                android:layout_marginTop="@dimen/y20"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/line"/>
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/x30"
+        android:paddingTop="@dimen/y30"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y230">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zdxxznpos"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智能POS机"
+                android:layout_marginLeft="@dimen/x10"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/y22"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/payproduct_jsft_ll"
+            android:layout_marginTop="@dimen/y60"
+            android:layout_marginLeft="@dimen/x54"
+            android:layout_width="@dimen/x130"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ftkt"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="付腾K90"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/y20"
+                android:layout_marginTop="@dimen/y20"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/line"/>
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/x30"
+        android:paddingTop="@dimen/y30"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y230">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zdxxypos"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智能扫码枪"
+                android:layout_marginLeft="@dimen/x10"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/y22"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/payproduct_gun_ll"
+            android:layout_marginTop="@dimen/y60"
+            android:layout_marginLeft="@dimen/x54"
+            android:layout_width="@dimen/x130"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/znsmq"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="波普SL-58"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/y20"
+                android:layout_marginTop="@dimen/y20"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>  

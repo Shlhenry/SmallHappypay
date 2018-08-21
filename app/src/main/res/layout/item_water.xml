@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y118"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/itemwater_type_img"
+                android:layout_marginTop="@dimen/y20"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jylspos"/>
+
+            <TextView
+                android:id="@+id/itemwater_mccName_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y10"
+                android:textSize="@dimen/y24"
+                android:text="xxx"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/x330"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/itemwater_tran_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y25"
+                android:textSize="@dimen/y28"
+                android:text="xxxxxxxxxxxxxxxxxxx"/>
+
+            <TextView
+                android:id="@+id/itemwater_tranTime_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:includeFontPadding="false"
+                android:textSize="@dimen/y24"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y15"
+                android:text="xxxx-xx-xx xx:xx:xx"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/itemwater_tranMoney_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/homecolor"
+                android:includeFontPadding="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y25"
+                android:textSize="@dimen/y28"
+                android:text="+xxxxxx"/>
+
+            <TextView
+                android:id="@+id/itemwater_tranFee_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:includeFontPadding="false"
+                android:textSize="@dimen/y24"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y15"
+                android:text="手续费: 0.0"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tool_bar"/>
+    
+    <TextView
+        android:id="@+id/chart_amnumbertime_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y68"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/y24"
+        android:background="@color/bgcolor"
+        android:text=""
+        android:paddingLeft="@dimen/x40"
+        android:gravity="center_vertical"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@color/bgcolor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:text="累计交易"
+                android:textSize="@dimen/y24"
+                android:includeFontPadding="false"
+                android:layout_marginLeft="@dimen/x40"
+                android:layout_marginTop="@dimen/y30"/>
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/y20"
+                android:layout_width="@dimen/x640"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/y107">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jylspos"/>
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/y24"
+                    android:textColor="@color/textcolor"
+                    android:text="POS机"
+                    android:includeFontPadding="false"
+                    android:layout_marginTop="@dimen/y10"
+                    android:layout_marginLeft="@dimen/x61"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/y30"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/y24"
+                        android:textColor="#999999"
+                        android:text="累计交易:"
+                        android:includeFontPadding="false"/>
+
+                    <TextView
+                        android:id="@+id/chart_allpos_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/y24"
+                        android:textColor="@color/textcolor"
+                        android:text=""
+                        android:includeFontPadding="false"/>
+
+                </LinearLayout>
+
+                <com.qmuiteam.qmui.widget.QMUIProgressBar
+                    android:id="@+id/posProgressBar"
+                    android:layout_width="@dimen/x585"
+                    android:layout_height="@dimen/y43"
+                    android:layout_marginLeft="@dimen/x54"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/qmui_config_color_white"
+                    android:textSize="16sp"
+                    app:qmui_background_color="#e3a434"
+                    app:qmui_progress_color="#f7b43b"
+                    app:qmui_type="type_rect"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/y40"
+                android:layout_width="@dimen/x640"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/y107">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jylswechat"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/y24"
+                    android:textColor="@color/textcolor"
+                    android:text="微信"
+                    android:includeFontPadding="false"
+                    android:layout_marginTop="@dimen/y10"
+                    android:layout_marginLeft="@dimen/x61"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/y30"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/y24"
+                        android:textColor="#999999"
+                        android:text="累计交易:"
+                        android:includeFontPadding="false"/>
+
+                    <TextView
+                        android:id="@+id/chart_allwechat_tx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/y24"
+                        android:textColor="@color/textcolor"
+                        android:text=""
+                        android:includeFontPadding="false"/>
+
+                </LinearLayout>
+
+                <com.qmuiteam.qmui.widget.QMUIProgressBar
+                    android:id="@+id/wechatProgressBar"
+                    android:layout_width="@dimen/x585"
+                    android:layout_height="@dimen/y43"
+                    android:layout_marginLeft="@dimen/x54"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/qmui_config_color_white"
+                    android:textSize="16sp"
+                    app:qmui_background_color="#19b105"
+                    app:qmui_progress_color="#19d100"
+                    app:qmui_type="type_rect"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/y40"
+                android:layout_width="@dimen/x640"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/y107">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jylszfb"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/y24"
+                    android:textColor="@color/textcolor"
+                    android:text="POS机"
+                    android:includeFontPadding="false"
+                    android:layout_marginTop="@dimen/y10"
+                    android:layout_marginLeft="@dimen/x61"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/y30"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/y24"
+                        android:textColor="#999999"
+                        android:text="累计交易:"
+                        android:includeFontPadding="false"/>
+
+                    <TextView
+                        android:id="@+id/chart_alipay_tx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/y24"
+                        android:textColor="@color/textcolor"
+                        android:text=""
+                        android:includeFontPadding="false"/>
+
+                </LinearLayout>
+
+                <com.qmuiteam.qmui.widget.QMUIProgressBar
+                    android:id="@+id/alipayProgressBar"
+                    android:layout_width="@dimen/x585"
+                    android:layout_height="@dimen/y43"
+                    android:layout_marginLeft="@dimen/x54"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/qmui_config_color_white"
+                    android:textSize="16sp"
+                    app:qmui_background_color="#068ed0"
+                    app:qmui_progress_color="#039feb"
+                    app:qmui_type="type_rect"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y1"
+                android:layout_marginTop="@dimen/y30"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="@dimen/x40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="今日交易趋势"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y24"
+                    android:includeFontPadding="false"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jybbh"
+                    android:layout_marginLeft="@dimen/x187"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="POS机交易"
+                    android:layout_marginLeft="@dimen/x6"
+                    android:textSize="@dimen/y12"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textcolor"
+                    android:includeFontPadding="false"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jybbg"
+                    android:layout_marginLeft="@dimen/x40"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="微信交易"
+                    android:layout_marginLeft="@dimen/x6"
+                    android:textSize="@dimen/y12"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textcolor"
+                    android:includeFontPadding="false"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jybbb"
+                    android:layout_marginLeft="@dimen/x40"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付宝交易"
+                    android:layout_marginLeft="@dimen/x6"
+                    android:textSize="@dimen/y12"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textcolor"
+                    android:includeFontPadding="false"/>
+
+            </LinearLayout>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y500"
+                android:background="#1f221c"
+                android:layout_marginTop="@dimen/y21"
+                android:id="@+id/linechart"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y66"
+                android:layout_marginTop="@dimen/y30"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018年"
+                    android:layout_marginLeft="@dimen/x40"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y24"/>
+
+                <LinearLayout
+                    android:id="@+id/charttwo_ll"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/y30"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/x23"
+                    android:background="@drawable/monthbg">
+
+                    <TextView
+                        android:id="@+id/chart_month_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/textcolor"
+                        android:textSize="@dimen/y24"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/jybbsanjiao"
+                        android:layout_marginLeft="@dimen/x16"
+                        android:layout_gravity="center_vertical"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="月份交易统计"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textColor="@color/textcolor"
+                    android:includeFontPadding="false"
+                    android:textSize="@dimen/y24"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jybbh"
+                    android:layout_marginLeft="@dimen/x17"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="POS机交易"
+                    android:layout_marginLeft="@dimen/x6"
+                    android:textSize="@dimen/y12"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textcolor"
+                    android:includeFontPadding="false"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jybbg"
+                    android:layout_marginLeft="@dimen/x40"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="微信交易"
+                    android:layout_marginLeft="@dimen/x6"
+                    android:textSize="@dimen/y12"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textcolor"
+                    android:includeFontPadding="false"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jybbb"
+                    android:layout_marginLeft="@dimen/x40"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付宝交易"
+                    android:layout_marginLeft="@dimen/x6"
+                    android:textSize="@dimen/y12"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textcolor"
+                    android:includeFontPadding="false"/>
+
+            </LinearLayout>
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y500"
+                android:background="#1f221c"
+                android:id="@+id/barchart"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>  

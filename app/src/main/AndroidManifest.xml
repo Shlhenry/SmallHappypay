@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.smallhappypay">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera2.full" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/xwlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/xwlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeNew">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.LoginActivity"></activity>
+        <activity android:name=".activity.ForgetActivity" />
+        <activity android:name=".activity.MccRateActivity" />
+        <activity android:name=".activity.AuthActivity" />
+        <activity android:name=".activity.listview.AreaActivity" />
+        <activity android:name=".activity.listview.BankListActivity" />
+        <activity android:name=".activity.listview.ProvinceListActivity" />
+        <activity android:name=".activity.listview.CityActivity" />
+        <activity android:name=".activity.WaterActivity" />
+        <activity android:name=".activity.BankInfoActivity" />
+        <activity android:name=".activity.binding.MachineBindingOneActivity" />
+        <activity android:name=".activity.binding.MachineBindingTwoActivity" />
+        <activity android:name=".activity.binding.MachineBindingThreeActivity" />
+        <activity android:name=".activity.MachineAllInfoActivity" />
+        <activity android:name=".activity.UnbindOneActivity" />
+        <activity android:name=".activity.SetActivity" />
+        <activity
+            android:name=".face.RegActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".face.VerifyLoginActivity" />
+        <activity android:name=".face.LoginResultActivity" />
+        <activity android:name=".face.DetectLoginActivity" />
+        <activity android:name=".face.FaceDetectActivity" />
+        <activity android:name=".activity.PayProductActivity" />
+        <activity android:name=".activity.FaceLoginNewActivity" />
+        <activity android:name=".activity.PayProductChildActivity" />
+        <activity android:name=".activity.QuestionActivity" />
+        <activity android:name=".activity.UnbindTwoActivity" />
+        <activity android:name=".activity.UnbindThreeActivity" />
+        <activity android:name=".activity.ChartActivity">
+
+        </activity>
+        <activity android:name=".activity.test.MPChartDemo"></activity>
+        <activity android:name=".activity.test.ChartTwoActivity"></activity>
+        <activity android:name=".TestActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
