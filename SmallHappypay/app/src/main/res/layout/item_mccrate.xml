@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y65">
+
+    <TextView
+        android:id="@+id/mccrateitem_mccname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxx"
+        android:textSize="@dimen/y28"
+        android:textColor="@color/textcolor"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x40"/>
+
+    <TextView
+        android:id="@+id/mccrateitem_mccrate_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxx"
+        android:textSize="@dimen/y28"
+        android:textColor="@color/textcolor"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/mccrateitem_mcccap_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxx"
+        android:textSize="@dimen/y28"
+        android:textColor="@color/textcolor"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/x40"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

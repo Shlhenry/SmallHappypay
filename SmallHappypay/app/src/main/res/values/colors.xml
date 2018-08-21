@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#fff</color>
+    <color name="homecolor">#4d91e9</color>
+    <color name="textcolor">#333333</color>
+    <color name="hui">#999999</color>
+    <color name="line">#1a000000</color>
+    <color name="bgcolor">#f0f1f7</color>
+    <color name="facecolor">#353f9d</color>
+
+</resources>

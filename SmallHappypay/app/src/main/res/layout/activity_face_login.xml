@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353f9d"
+    android:id="@+id/root_view"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y96"
+        android:background="#353f9d">
+
+        <LinearLayout
+            android:id="@+id/toolbar_back_ll"
+            android:layout_width="@dimen/x100"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xwbfh"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/x40"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/toolbar_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刷脸登录"
+            android:textColor="#fff"
+            android:textSize="@dimen/y34"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/y330"
+        android:layout_marginLeft="@dimen/x120">
+
+    <com.baidu.aip.face.TexturePreviewView
+        android:id="@+id/preview_view"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        />
+</RelativeLayout>
+
+    <com.example.administrator.smallhappypay.face.widget.FaceRoundView
+        android:id="@+id/rect_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:text="请将脸部正对前置摄像头"
+        android:layout_marginTop="@dimen/y790"
+        android:textSize="@dimen/y28" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/y100"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sldlts"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x60"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/y24"
+            android:textColor="#fff"
+            android:layout_marginLeft="@dimen/x15"
+            android:layout_marginRight="@dimen/x30"
+            android:text="初次使用刷脸登录的用户需先注册APP，再到我的信息页面进行人脸认证。"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

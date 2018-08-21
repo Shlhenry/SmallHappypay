@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.github.wenchaosong:OCR_identify-3.0.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/OCR_identify-3.0.8.aar/5b6ba035112c95816ce891b0780a4bfa/jars/libs/license.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/OCR_identify-3.0.8.aar/5b6ba035112c95816ce891b0780a4bfa/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/OCR_identify-3.0.8.aar/5b6ba035112c95816ce891b0780a4bfa/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

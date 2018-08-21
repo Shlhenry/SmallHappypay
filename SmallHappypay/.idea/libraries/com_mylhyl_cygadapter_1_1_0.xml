@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.mylhyl:cygadapter-1.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cygadapter-1.1.0.aar/ed321307b4a6400efd9734991ba416db/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cygadapter-1.1.0.aar/ed321307b4a6400efd9734991ba416db/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mylhyl/cygadapter/1.1.0/2e34ef1960ff6561e122212c004e954558e9cdc0/cygadapter-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

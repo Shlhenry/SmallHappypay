@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tool_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y85"
+        android:background="#fff"
+        android:paddingLeft="@dimen/x40"
+        android:layout_marginTop="@dimen/y28">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:text="绑定商户号:"
+            android:textSize="@dimen/y28"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/machine_amNumber_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:text="商户号"
+            android:textSize="@dimen/y24"
+            android:layout_marginLeft="@dimen/x200"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y85"
+        android:background="#fff"
+        android:paddingLeft="@dimen/x40"
+        android:layout_marginTop="@dimen/y20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:text="终端SN号:"
+            android:textSize="@dimen/y28"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:id="@+id/machine_sn_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:hint="请输入SN号"
+            android:textColorHint="#999999"
+            android:background="#fff"
+            android:textSize="@dimen/y24"
+            android:layout_marginLeft="@dimen/x200"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y2"
+        android:background="@color/line"
+        android:layout_marginLeft="@dimen/x40"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y85"
+        android:background="#fff"
+        android:paddingLeft="@dimen/x40">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:text="终端型号:"
+            android:textSize="@dimen/y28"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:id="@+id/machine_select_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/x200">
+
+        <TextView
+            android:id="@+id/machine_select_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/textcolor"
+            android:text="请选择型号"
+            android:gravity="center"
+            android:textSize="@dimen/y24"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x22"
+            android:src="@drawable/jybbsanjiao"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/machine_okbinding_imgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/zdbdbuttonwdj"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y78"/>
+
+
+</LinearLayout>  

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f1f7"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="终端"
+        android:textColor="#fff"
+        android:textSize="@dimen/y34"
+        android:background="@color/homecolor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y96"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y284"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/y27">
+
+            <TextView
+                android:textSize="@dimen/y34"
+                android:textColor="@color/textcolor"
+                android:text="终端绑定"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x29"
+                android:includeFontPadding="false"/>
+
+            <TextView
+                android:textSize="@dimen/y28"
+                android:textColor="@color/hui"
+                android:text="将终端信息存入后台"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x29"
+                android:includeFontPadding="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/y36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/terminal_oneok_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x60"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zdyidpos"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="移动POS机"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/terminal_twook_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x135"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zdznpos"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="智能POS机"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/terminal_threeok_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x135"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zdypos"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/y21"
+                    android:includeFontPadding="false"
+                    android:text="云POS机"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/y20"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y284"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/y27">
+
+            <TextView
+                android:textSize="@dimen/y34"
+                android:textColor="@color/textcolor"
+                android:text="终端解绑"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x29"
+                android:includeFontPadding="false"/>
+
+            <TextView
+                android:textSize="@dimen/y28"
+                android:textColor="@color/hui"
+                android:layout_gravity="center_vertical"
+                android:text="将存进后台的机器与代理商进行绑定"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x29"
+                android:includeFontPadding="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/y36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/terminal_oneno_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x60"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zdyidpos"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="移动POS机"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/terminal_twono_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x135"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zdznpos"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/y21"
+                    android:includeFontPadding="false"
+                    android:text="智能POS机"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/terminal_threeno_ll"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/x135"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zdypos"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/y21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="云POS机"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/y22"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zwgd"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/y366"/>
+
+
+</LinearLayout>  

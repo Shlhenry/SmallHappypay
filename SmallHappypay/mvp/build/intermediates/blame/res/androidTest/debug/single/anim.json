@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.3.0.aar\\4e29adc2e23bceaee228b0b355a4a5ce\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.3.0.aar\\4e29adc2e23bceaee228b0b355a4a5ce\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.3.0.aar\\4e29adc2e23bceaee228b0b355a4a5ce\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.3.0.aar\\4e29adc2e23bceaee228b0b355a4a5ce\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.3.0.aar\\4e29adc2e23bceaee228b0b355a4a5ce\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.3.0.aar\\4e29adc2e23bceaee228b0b355a4a5ce\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\ZHLPOS\\SmallHappypay\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\0bb8fb2aee74c11f0c61c5dd265473d8\\res\\anim\\abc_popup_exit.xml"
+    }
+]

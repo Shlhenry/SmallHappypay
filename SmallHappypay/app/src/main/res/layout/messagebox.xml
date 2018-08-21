@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/x663"
+    android:layout_height="@dimen/y208"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/messagebox_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxxxxxxxx"
+        android:textColor="#fff"
+        android:textSize="@dimen/y32"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y30"/>
+
+
+    <TextView
+        android:layout_width="@dimen/x634"
+        android:layout_height="@dimen/y2"
+        android:background="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y27"/>
+
+    <ImageView
+        android:id="@+id/messagebox_close"
+        android:layout_width="@dimen/x63"
+        android:layout_height="@dimen/y63"
+        android:src="@mipmap/wrong"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y28"/>
+
+
+</LinearLayout>
